@@ -782,6 +782,28 @@
 
     }
 
+    .layer-100 h1 {
+        font-size:600%;
+    }
+
+    @media (max-width: 700px) {
+        .layer-100  h1 {
+            font-size: 200%;
+        }
+        .layer-100 h2 {
+            font-size: 150%;
+
+        }
+
+    }
+
+    @media (max-width: 1000px) {
+        .layer-100  h1 {
+            font-size: 400%;
+        }
+
+    }
+
     /*.heading-dream > span {*/
         /*background: url(http://www.circlek.org/Libraries/2013_branding_design_elements/graphics_CKI_horizontal_stripesorange_CMYK.sflb.ashx) repeat;*/
         /*-webkit-background-clip: text;*/
@@ -806,7 +828,7 @@
     <div class="cd-fixed-bg cd-bg-1">
         <div class="container layer-100">
 
-            <h1 style="color:black; text-align:center; font-size:600%;" class="heading-dream">
+            <h1 style="color:black; text-align:center;" class="heading-dream">
                 <span>Dream Project</span>
                 <span>Initiative</span>
             </h1>
@@ -1189,23 +1211,15 @@
 
 <!-- GOOGLE ANALYTICS -->
 <script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'http://www.google-analytics.com/analytics.js', 'ga');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-3788027-10', 'themecube.net');
-    ga('send', 'pageview');
+  ga('create', 'UA-103189427-1', 'auto');
+  ga('send', 'pageview');
 
 </script>
-
 
 </body>
 
